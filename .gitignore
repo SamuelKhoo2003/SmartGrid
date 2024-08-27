@@ -1,0 +1,6 @@
+*__pycache__
+buy_sell_algorithm/predictions/saved_populations
+buy_sell_algorithm/predictions/graphs
+tcp/credentials.py
+react-front-end/src/assets/ExternalInfo.json
+.vscode

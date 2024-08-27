@@ -1,0 +1,15 @@
+{
+  "short_name": "Smart Grid App",
+  "name": "Smart Grid",
+  "icons": [
+    {
+      "src": "renewable-energy.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#1E1E1E",
+  "background_color": "#121212"
+}

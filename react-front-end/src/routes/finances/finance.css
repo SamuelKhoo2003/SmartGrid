@@ -1,0 +1,90 @@
+.finances-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+    flex-direction: column; /* Ensure the layout is columnar */
+}
+
+.energybs-bubble {
+    padding: 1.75rem; /* Padding for the content */
+    border-radius: 0.75rem; /* Rounded corners */
+    margin: 0.5rem; /* Margin between bubbles */
+    margin-right: 0.25rem; /* Margin between bubbles */
+    margin-bottom: 0.25rem;
+    flex: 3; /* Equal width for both bubbles */
+    align-items: center;
+}
+.costs-bubble {
+    padding: 1.75rem; /* Padding for the content */
+    border-radius: 0.75rem; /* Rounded corners */
+    margin: 0.5rem; /* Margin between bubbles */
+    margin-left: 0.25rem; /* Margin between bubbles */
+    margin-bottom: 0.25rem;
+    flex: 1; /* Equal width for both bubbles */
+    align-items: center;
+}
+
+.cost-chart-bubble {
+    padding: 1.75rem; /* Padding for the content */
+    border-radius: 0.75rem; /* Rounded corners */
+    margin: 0.5rem; /* Margin between bubbles */
+    margin-top: 0.25rem;
+    margin-right: 0.25rem;
+    flex: 1; /* Equal width for both bubbles */
+    align-items: center;
+}
+
+.comparison-bubble {
+    padding: 1.75rem; /* Padding for the content */
+    border-radius: 0.75rem; /* Rounded corners */
+    margin: 0.5rem; /* Margin between bubbles */
+    margin-top: 0.25rem;
+    margin-left: 0.25rem;
+    flex: 1; /* Equal width for both bubbles */
+    align-items: center;
+}
+
+/* Weekly Comparison Styling */
+/* WeeklyComparison.css */
+
+.weekly-comparison {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .comparison-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .comparison-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .comparison-label {
+    flex: 1;
+    font-weight: bold;
+    color: #666;
+  }
+  
+  .comparison-value {
+    flex: 1;
+    text-align: right;
+    color: #333;
+  }
+  
+  .increase-icon {
+    color: #3cba9f; /* Green color for increase trend */
+  }
+  
+  .decrease-icon {
+    color: #ff6347; /* Red color for decrease trend */
+  }

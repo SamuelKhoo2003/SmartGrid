@@ -1,0 +1,9 @@
+This project was the core part of our end of 2nd year module at Imperial College London with a strong focus on integrating hardware and software technologies to form a smart grid system.
+
+Central to our project is the detailed analysis of photovoltaic (PV) arrays to optimize energy usage. We designed a custom power grid setup, incorporating PV cells and advanced power supply management for effective local grid simulation.
+
+On the software side, we developed an advanced energy trading algorithm as well as cloud services to store historical data and a robust webapp to display all our information. Our algorithmic approach to buying and selling energy, minimizes costs through intelligent management strategies, enhanced by continuous machine learning refinement.
+
+In hardware, we utilized capacitors for efficient energy storage and Switched-Mode Power Supply (SMPS) modules to dynamically regulate voltage levels, optimizing energy conversion across varied conditions.
+
+Our project has been a profound learning experience, combining academic knowledge with practical implementation. It addresses current energy challenges while fostering future innovations in smart grid technology. Join us in exploring the forefront of sustainable energy solutions through our interdisciplinary approach.

@@ -1,0 +1,28 @@
+.graph-bubble {
+    padding: 1.75rem; /* Padding for the content */
+    border-radius: 0.75rem; /* Rounded corners */
+    margin: 0.5rem; /* Margin between bubbles */
+    flex: 1; /* Equal width for both bubbles */
+    align-items: center;
+
+  }
+
+  .score-bubble {
+        width: calc(100% - 1rem);
+        padding: 1.75rem; /* Padding for the content */
+        border-radius: 0.75rem; /* Rounded corners */
+        margin-top: 0.5rem; /* Margin between bubbles */
+        align-items: center;
+    }
+
+  .consumption-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+    flex-direction: column; /* Ensure the layout is columnar */
+  }
+
+  .filter-buttons-container {
+    margin-bottom: 1.5rem;
+  }

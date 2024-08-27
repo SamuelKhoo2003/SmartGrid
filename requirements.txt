@@ -1,0 +1,12 @@
+scipy==1.13.1
+matplotlib==3.9.0
+numpy==1.26.4
+sockets==1.0.0
+aiohttp==3.9.5
+colorama==0.4.6
+cvxpy==1.5.1
+cylp==0.92.2
+asyncio==3.4.3
+pulp==2.8.0
+urllib3==2.2.1
+

@@ -1,0 +1,42 @@
+.navbar {
+  width: 100%;
+  /* background-color: #1E1E1E; Dark mode background color */
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  position: fixed; /* Make the navbar fixed */
+  top: 0; /* Position it at the top of the viewport */
+  left: 0; /* Align it to the left side */
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow-y: auto; /* Add vertical scroll if content overflows */
+  padding-top: 5rem; /* Ensure content starts below the navbar */
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent; /* Hide scrollbar in Firefox */
+  background-color: #2e2e2e;
+}
+
+/* Hide the scrollbar in WebKit/Blink */
+.app::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+.app::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+.app::-webkit-scrollbar-thumb {
+  background: #888; /* Change scrollbar thumb color */
+  border-radius: 3px;
+}
+
+/* Handle on hover */
+.app::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Change scrollbar thumb color on hover */
+}

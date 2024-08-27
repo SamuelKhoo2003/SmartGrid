@@ -1,0 +1,86 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px; /* Adjust padding for better spacing */
+    background-color: #1e1e1e !important;/* Dark mode background color */
+    z-index: 1000;
+  }
+  
+  .navbar ul {
+    margin-right: 20px; /* Add extra spacing on the right */
+  }
+  
+  .navbar li:last-child {
+    margin-left: 10px; /* Add spacing between the "About" link and the bell icon */
+  }
+  
+  .bell-icon {
+    font-size: 1.3rem; /* Adjust the size of the bell icon */
+    margin-top: 0px; /* Shift the bell icon slightly lower */
+    margin-left: 5px; /* Add spacing between the bell icon and the link */
+    vertical-align: middle; /* Align the bell icon vertically with the text */
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  @keyframes spin-once {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .spin-once-animation {
+    animation: spin-once 0.7s linear; /* Adjust the animation duration as needed */
+  }
+  
+  @keyframes shake {
+    0% {
+      transform: translateX(0) rotate(0);
+      transform-origin: top; /* Set pivot point to top */
+    }
+    20% {
+      transform: translateX(-2px) rotate(-5deg);
+      transform-origin: top; /* Set pivot point to top */
+    }
+    40% {
+      transform: translateX(2px) rotate(5deg);
+      transform-origin: top; /* Set pivot point to top */
+    }
+    60% {
+      transform: translateX(-2px) rotate(-5deg);
+      transform-origin: top; /* Set pivot point to top */
+    }
+    80% {
+      transform: translateX(2px) rotate(5deg);
+      transform-origin: top; /* Set pivot point to top */
+    }
+    100% {
+      transform: translateX(0) rotate(0);
+      transform-origin: top; /* Set pivot point to top */
+    }
+  }
+ 
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .navbar a {
+    /* font-family: "Lato", sans-serif; Change font to Lato */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  /* Add hover effect to the bell icon */
+  .bell-icon:hover {
+    animation: shake 0.5s infinite; /* Add a shake animation on hover */
+    color: #ccc; /* Change color on hover */
+  }
+  

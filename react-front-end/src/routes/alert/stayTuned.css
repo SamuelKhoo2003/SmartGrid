@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: 'Calibri', sans-serif;
+    background-color: #ffffff;
+    color: #1e1e1e;
+    overflow: hidden;
+  }
+  
+  .stay-tuned-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 5rem); /* Adjust if you have a navbar */
+    padding-top: 5rem; /* Ensure content is below the navbar */
+    background-color: #ffffff;
+  }
+  
+  .stay-tuned-content {
+    text-align: center;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  .stay-tuned-title {
+    font-size: 6rem; /* Adjust based on your design */
+    margin: 0;
+    color: #1e1e1e;
+    font-weight: 600; /* Semibold (600 is usually the value for semibold) */
+    animation: scaleAndFade 2s ease-in-out infinite alternate;
+  }
+  
+  .stay-tuned-text {
+    font-size: 2rem; /* Adjust based on your design */
+    margin: 20px 0;
+    color: #1e1e1e;
+  }
+  
+  .home-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 2px solid #1e1e1e;
+    color: #1e1e1e;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .home-link:hover {
+    background-color: #1e1e1e;
+    color: #ffffff;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes scaleAndFade {
+    0% {
+      transform: scale(1);
+      opacity: 0.7;
+    }
+    50% {
+      transform: scale(1.1);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 0.7;
+    }
+  }
+  
