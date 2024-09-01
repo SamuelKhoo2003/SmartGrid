@@ -18,6 +18,15 @@ In the rapidly advancing field of energy management, our Smart Grid project expl
 
 - **Cloud Integration:** The project features a robust AWS infrastructure with DynamoDB for data storage and API endpoints that connect solar grid hardware via Raspberry Pis. This setup ensures seamless integration and efficient data exchange between the hardware and the cloud.
 
+## Top-Level Design
+
+The top-level design of the smart grid system is visualized in the following diagram:
+
+![Top-Level Design](demo_assets/highlevel_overview.png)
+
+This diagram illustrates the system's key components, including the solar array, microcontrollers, SMPS module, and cloud integration.
+
+
 <details>
 <summary><strong>Simulation Overview</strong></summary>
 
@@ -48,17 +57,6 @@ This will set up the environment needed to execute the smart grid simulation and
 </details>
 
 <details>
-<summary><strong>Top-Level Design</strong></summary>
-
-The top-level design of the smart grid system is visualized in the following diagram:
-
-![Top-Level Design](demo_assets\highlevel_overview.png)
-
-This diagram illustrates the key components of the system, including the solar array, microcontrollers, SMPS module, and the cloud integration.
-
-</details>
-
-<details>
 <summary><strong>Buy-Sell Algorithm</strong></summary>
 
 ### Machine Learning Predictions
@@ -84,10 +82,10 @@ The web application also features detailed pages for monitoring energy consumpti
 
 ### Demo
 
-A live demo of the web application is shown below, more details can be when the repo is forked and the web application is ran locally!
+A live demo of the web application is shown below, more details can be provided when the repo is forked and the web application is run locally!
 
-![Finances Page](demo_assets\finances.png)
+![Finances Page](demo_assets/finances.png)
 
-![Consumption Page](demo_assets\consumptions.png)
+![Consumption Page](demo_assets/consumptions.png)
 
 </details>
