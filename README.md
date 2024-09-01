@@ -1,14 +1,10 @@
 # Smart Grid - Energy Trading Simulation
 
-<details>
-<summary><strong>About</strong></summary>
+## About
 
 In the rapidly advancing field of energy management, our Smart Grid project explores the integration of renewable energy with intelligent grid systems. The project focuses on optimizing the trading and storage of energy between an off-grid solar system and an external energy grid. By leveraging machine learning, optimization algorithms, and modern web technologies, this project aims to create a highly efficient and sustainable energy management system.
 
-</details>
-
-<details>
-<summary><strong>Key Features</strong></summary>
+## Key Features
 
 - **Internal Solar Array:** The smart grid is powered by an internal solar array, which serves as the primary renewable energy source. This array plays a crucial role in reducing reliance on external energy sources.
 
@@ -21,8 +17,6 @@ In the rapidly advancing field of energy management, our Smart Grid project expl
 - **Web Application:** A React.js web application provides a user-friendly interface for monitoring and managing the smart grid. The dashboard displays real-time data on energy trading decisions, storage levels, and financial performance.
 
 - **Cloud Integration:** The project features a robust AWS infrastructure with DynamoDB for data storage and API endpoints that connect solar grid hardware via Raspberry Pis. This setup ensures seamless integration and efficient data exchange between the hardware and the cloud.
-
-</details>
 
 <details>
 <summary><strong>Simulation Overview</strong></summary>
@@ -56,7 +50,7 @@ This will set up the environment needed to execute the smart grid simulation and
 
 The top-level design of the smart grid system is visualized in the following diagram:
 
-![Top-Level Design](https://github.com/SamuelKhoo2003/SmartGrid/blob/main/images/TopLevel.drawio.png)
+![Top-Level Design]()
 
 This diagram illustrates the key components of the system, including the solar array, microcontrollers, SMPS module, and the cloud integration.
 
@@ -88,7 +82,8 @@ The web application also features detailed pages for monitoring energy consumpti
 
 ### Demo
 
-A live demo of the web application can be accessed [here](#) (Insert the actual URL).
+A live demo of the web application is shown below, more details can be when the repo is forked and the web application is ran locally!
+
+
 
 </details>
-
