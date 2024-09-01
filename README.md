@@ -30,6 +30,8 @@ The smart grid model simulates a single day, with each simulated minute represen
 
 The accompanying project report provides a comprehensive overview of the system's design, implementation, and performance. It details the development process, the challenges faced, and the solutions devised to create an efficient and scalable smart grid system. The report also includes an analysis of the system's performance, demonstrating the effectiveness of the machine learning models and optimization algorithms in managing energy trading and storage.
 
+This can be accessed [here](Final_Report.pdf)
+
 </details>
 
 <details>
@@ -50,7 +52,7 @@ This will set up the environment needed to execute the smart grid simulation and
 
 The top-level design of the smart grid system is visualized in the following diagram:
 
-![Top-Level Design]()
+![Top-Level Design](demo_assets\highlevel_overview.png)
 
 This diagram illustrates the key components of the system, including the solar array, microcontrollers, SMPS module, and the cloud integration.
 
@@ -84,6 +86,8 @@ The web application also features detailed pages for monitoring energy consumpti
 
 A live demo of the web application is shown below, more details can be when the repo is forked and the web application is ran locally!
 
+![Finances Page](demo_assets\finances.png)
 
+![Consumption Page](demo_assets\consumptions.png)
 
 </details>
